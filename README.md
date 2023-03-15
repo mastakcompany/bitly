@@ -7,7 +7,7 @@ Before running this program, you need to obtain a Bitly API token. You can do th
 
 # How to install
 Python3 should already be installed.
-Then use 'pip' to install the dependencies:
+Then use `pip` to install the dependencies:
 
 1. Clone this repository or download the script file.
 2. Install the required Python packages using pip:
