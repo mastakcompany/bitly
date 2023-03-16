@@ -18,9 +18,28 @@ pip install python-dotenv
 ```
 
 You can also install dependencies with the command:
-```angular2html
+```
 pip install -r requirements.txt
 ```
+# Environment Variables
+To run the program, you need to set the following environment variables:
+
+`BITLY_API_TOKEN`: This variable should contain your Bitly API token.
+
+Once you have obtained your API token, you can set the BITLY_API_TOKEN environment variable by exporting it in your shell or by adding it to a .env file in the root directory of the bitly program.
+
+For example, if you are using the Bash shell, you can export the BITLY_API_TOKEN variable like this:
+
+```
+export BITLY_API_TOKEN=your_api_token_here
+```
+
+If you prefer to use a .env file, create a file named .env in the root directory of the bitly program and add the following line:
+
+```
+BITLY_API_TOKEN=your_api_token_here
+```
+Replace your_api_token_here with your actual API token.
 
 # Usage
 To run the program, use the following command:
